@@ -1,0 +1,18 @@
+{
+	"name": "brucep/wp-helper-redis",
+    "description": "Redis caching for custom WordPress development.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "symfony/cache": "^5.3"
+    },
+    "suggest": {
+        "ext-redis": "An extension or library that implements Redis, RedisArray, RedisCluster, or Predis is required."
+    },
+    "autoload": {
+        "psr-4": {
+            "Brucep\\WordPress\\RedisHelper\\": "src/"
+        }
+    }
+}
